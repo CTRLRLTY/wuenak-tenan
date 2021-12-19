@@ -54,12 +54,24 @@ module.exports = {
         index: [
             "./index.css",
             "./menu_recc1.png",
+            "./menu_recc2.png",
+            "./menu_recc3.png",
+            "./menu_recc4.png",
+            "./menu_recc5.png",
+            "./menu_recc6.png",
             "./burger.png",
             "./reviewer1.png",
+            "./reviewer2.png",
+            "./reviewer3.png",
             "./banner.png"
         ],
         about: ["./about.css"],
-        menu: ["./menu.css", "./menu_a.png"],
+        menu: [
+            "./menu.css", 
+            "./menu_kotak_a.png",
+            "./menu_kotak_b.png",
+            "./menu_kotak_c.png",
+        ],
         custom_menu: ["./custom_menu.js", "./custom_menu.css"],
         contact: ["./contact.css", "./banner2.png"],
         order: ["./order.css", "./confused.png", "./search.svg"]
