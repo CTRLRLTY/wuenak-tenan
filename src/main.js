@@ -20,10 +20,10 @@ class HeaderNav extends HTMLElement {
                     </object>
                 </a>
                 <div class="link-container flexbox-space-between">
-                    <a class="nav-link">About Us</a>
+                    <a class="nav-link" href="./about-us.html">About Us</a>
                     <a class="nav-link" href="./menu.html">Menu</a>
-                    <a class="nav-link">Order Status</a>
-                    <a class="nav-link">Contact Us</a>
+                    <a class="nav-link" href="./order-status.html">Order Status</a>
+                    <a class="nav-link" href="./contact-us.html">Contact Us</a>
                 </div>
             </nav>
         `;
@@ -38,12 +38,17 @@ class Header extends HTMLElement {
         super();
         this.wrapper = document.createElement('div');
         this.wrapper.innerHTML = `
-            <header id="banner">
+            <header id="banner"
+                style=\"
+                    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(\'${this.getAttribute('src')}\') no-repeat;
+                    background-size: cover; 
+                \">
                 <main-nav></main-nav>
-                <h1 id="WOTD" class="flexbox-center font-light">Perut Kenyang,<br/>Dompet Aman</h1>
+                <h1 class="flexbox-center font-light">${this.innerHTML}</h1>
             </header>
         `;
 
+        this.innerHTML = "";
         this.appendChild(this.wrapper);
     }
 };

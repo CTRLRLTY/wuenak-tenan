@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Wuenak Tenan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%=require('html-loader!./fonts-link.html').default%>
+</head>
+
+<body>
+    <main-header src="<%=require('./banner2.png')%>">
+        Ada masalah? Kami bantu
+    </main-header>
+    <main>
+        <h2>Contact Form</h2>
+        <form>
+            <div id="input-container">
+                <input type="text" name="name" placeholder="Nama lengkap: Johnny Sin" required>
+                <input type="email" name="email" placeholder="Surel: john22@hotmail.com" required>
+                <input type="text" name="subject" placeholder="Subjek: Makan wuenak" required>
+                <textarea name="area" placeholder="Message..." required></textarea>
+            </div>
+            <input class="button-primary" type="submit" value="Kirim">
+        </form>
+    </main>
+    <main-footer></main-footer>
+</body>
+
+</html>

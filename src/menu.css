@@ -27,6 +27,7 @@ main {
 }
 
 
+
 /* inbetween gap */
 .package-bundle > *:last-child > *:first-child {
     min-width: 300px;

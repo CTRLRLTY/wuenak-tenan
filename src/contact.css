@@ -1,0 +1,53 @@
+main {
+    margin: 80px 0px;
+}
+
+main > h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#input-container {
+    display: grid;
+    grid-template-areas: "name area" "email area" "subject area";
+    gap: 30px;
+}
+
+#input-container > * {
+    background-color: rgba(196, 196, 196, 0.2);
+    border: 1px solid #000;
+}
+
+input, textarea {
+    font-size: 20px;
+    padding: 12px 20px;
+}
+
+input[name="name"] {
+    grid-area: name;
+}
+
+input[name="email"] { 
+    grid-area: email;
+}
+
+input[name="subject"] {
+    grid-area: subject;
+}
+
+textarea[name="area"] {
+    grid-area: area;
+}
+
+input[type="submit"] {
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    min-width: 130px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Wuenak Tenan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%=require('html-loader!./fonts-link.html').default%>
+</head>
+
+<body>
+    <header>
+        <main-nav class="light-theme"></main-nav>
+    </header>
+    <main class="flexbox-vcenter flexbox-column">
+        <img src="<%=require('./confused.png')%>">
+        <h4 id="help-text">Penasaran bagaimana kondisi pesananmu</h4>
+        <div id="search-container" class="flexbox-row">
+            <input type="text" placeholder="Masukan kode referensi...">
+            <button id="search-button"><img src="<%=require('./search.svg')%>" alt=""></button>
+        </div>
+    </main>
+    <main-footer></main-footer>
+</body>
+
+</html>

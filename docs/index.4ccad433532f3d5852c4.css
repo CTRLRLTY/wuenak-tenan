@@ -6,16 +6,7 @@
   padding: 80px 150px; 
 }
 
-#banner {
-  min-height: 1024px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(1b836f773b4e8b5432c5.png) no-repeat;
-  background-size: cover;
-  padding-top: 30px;
-}
 
-#banner #WOTD {
-  margin-top: 300px;  
-}
 
 #recommendation > h1 {
   text-align: center;
@@ -54,4 +45,4 @@
 
 
 
-/*# sourceMappingURL=index.0490191a349b23146a41.css.map*/
+/*# sourceMappingURL=index.4ccad433532f3d5852c4.css.map*/

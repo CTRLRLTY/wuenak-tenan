@@ -6,16 +6,7 @@
   padding: 80px 150px; 
 }
 
-#banner {
-  min-height: 1024px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("banner.png") no-repeat;
-  background-size: cover;
-  padding-top: 30px;
-}
 
-#banner #WOTD {
-  margin-top: 300px;  
-}
 
 #recommendation > h1 {
   text-align: center;

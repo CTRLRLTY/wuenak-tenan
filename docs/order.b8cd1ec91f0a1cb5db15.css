@@ -1,0 +1,36 @@
+header {
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+main > * {
+    text-align: center;
+}
+
+#help-text {
+    margin-bottom: 20px;
+}
+
+#search-container {
+    height: 65px;
+    margin-bottom: 120px;
+}
+
+#search-container > input {
+    width: 500px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#search-button {
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+}
+
+#search-button > img {
+    height: 100%;
+}
+
+/*# sourceMappingURL=order.b8cd1ec91f0a1cb5db15.css.map*/
